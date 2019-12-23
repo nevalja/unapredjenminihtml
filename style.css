@@ -1,0 +1,107 @@
+
+	body {
+        background: rgb(255, 255, 255);
+    }
+		
+	#container {
+		box-sizing: border-box;
+		width: 960px;
+		background: rgba(202, 202, 202, 0.993);
+		padding: 10px;
+		margin: 20px auto 0;
+			}
+	nav {		
+		margin: 50px 0 0 20px;	
+		width: 310px;
+		height: 560px;
+		float: left;
+	}
+	
+	.links {
+			font-size: 1.5em;
+			line-height: 40px;
+		}	
+		
+	#target {
+			border: 3px solid silver;
+			width: 600px;
+			float: right;
+			background: rgb(238, 238, 238);
+		}
+
+	#target img {
+            margin: 0 auto 20px;
+            display: block;
+		}
+	#clear {
+			clear: both;
+	}
+	p {
+				text-align: justify;
+				line-height: 22px;
+				text-indent: 50px;
+				margin: 0 10px 20px;
+				font-size: larger;}
+
+	ul {
+		margin: 50px 0 0 5px;
+	}
+	h1 {
+        font-family: 'Redressed', cursive;
+             text-align: center;
+			 font-size: 3em;
+			margin-bottom: 10px;
+	}
+	h3 {
+				font-size: 1.5em;
+				text-indent: 30px;
+			}
+
+	table {
+				width: 98%;
+				font-family: Georgia, 'Times New Roman', Times, serif;
+			 font-size: larger;
+				 border-collapse: collapse;
+				border: 1px solid black;
+			   margin-left: 5px;
+			}
+		 
+	th, td {
+       
+				border: 1px solid black;
+				padding: 10px;
+		 
+			}
+	.name {
+		width: 30%;
+	}
+	.narator {
+        font-family: 'Bilbo', cursive;
+         font-size: 2em;
+         line-height: 30px;
+		text-indent: 50px;
+		color: rgb(83, 44, 175);
+	
+		letter-spacing: 2px;
+	}
+
+
+.button {
+	margin: 35px;
+	width: 240px;
+	height: 35px;
+	background-color: rgb(167, 160, 226);
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	padding: 0 2px 2px 0;
+	line-height: 35px;
+}
+	
+.button:hover {
+		border-bottom: 1px solid gray;
+		padding: 0;
+		border-top: 1px solid gray; 
+		border-left: 1px solid gray;
+		border-right: 1px solid gray;
+	
+	}
